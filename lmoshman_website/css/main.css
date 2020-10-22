@@ -12,9 +12,23 @@
    ========================================================================== */
 
 html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
+
+header {
+  background-color: #FFFFFF;
+  padding: 20px;
+  opacity: 65%;
+  font: playfair display sc;
+  font-size: 4.1em;
+  text-decoration-color: #000000;
+  text-align: center;
+}
+
+head {
+  font: playfair display sc;
+  font-style: bold;
+  font-size: 12.5em;
+  text-decoration-color: #000000
+  text-align: center;
 }
 
 /*
@@ -91,7 +105,7 @@ textarea {
 
 
 
-   
+
 
 /* ==========================================================================
    Helper classes
@@ -266,4 +280,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
