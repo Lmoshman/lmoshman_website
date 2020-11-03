@@ -17,7 +17,6 @@
    /* this sets no horizontal scrolling and the base font as Montserrat */
    html{
     background-color: #ffffff;
-    overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
   }
@@ -93,6 +92,10 @@
   /* ==========================================================================
      Author's custom styles
      ========================================================================== */
+
+     body{
+      overflow-x: hidden;
+     }
 
      /* This sets up your header with your background image*/
      header {
@@ -180,6 +183,22 @@
       flex-direction: column;
       height: 50px;
       background-color: #ffffff;
+    }
+
+    /* This creates the main content section on each page */
+
+    .main_content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0px;
+      padding: 5%;
+    }
+
+    /* this tells the browes to find the <p> in the .main_content and make it only 75% width */
+    .main_content p{
+      width: 75%;
     }
 
 
