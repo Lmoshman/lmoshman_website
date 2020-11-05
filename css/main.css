@@ -138,15 +138,6 @@
       font-size: 40px;
     }
 
-    div h1{
-      font-family: 'Playfair Display SC', serif;
-      color: #000000;
-      text-decoration: none;
-      justify-content: center;
-      align-items: center;
-      font-size: 150px;
-    }
-
     .ecco2k_logo{
       width: 100vw;
       display: flex;
@@ -174,6 +165,23 @@
       background-repeat: no-repeat;
       height: 930px;
     }
+
+    /* This sets up your different background images for each page */
+    #tourbg{
+      background-image: url('../img/tour_bottom.jpg');
+    }
+
+    #aboutbg{
+      background-image: url('../img/about_bottom.jpg');
+    }
+
+    #contactbg{
+      background-image: url('../img/contact_bottom.jpg');
+      background-position: top;
+    }
+
+    
+
     footer{
       width: 100vw;
       display: flex;
@@ -194,11 +202,14 @@
       flex-direction: column;
       margin: 0px;
       padding: 5%;
+      background-color: #000;
+      color: #fff;
     }
 
     /* this tells the browes to find the <p> in the .main_content and make it only 75% width */
     .main_content p{
       width: 75%;
+
     }
 
 
