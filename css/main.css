@@ -113,29 +113,48 @@
       display: flex;
       justify-content: center;
       align-items: top;
+      flex-direction: row;
       background-color: rgba(255, 255, 255, .6);
       font-family: 'Playfair Display SC', serif;
     }
 
     /* This sets up your unordered list in your navigation*/
-    nav ul{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      list-style-type: none;
-      flex-direction: row;
+
     }
 
     /* This sets up your list items to have the space between each of them*/
     nav ul li {
       margin: 30px 90px;
-    }
+  }
 
     /* This sets up your links*/
     nav ul li a{
       color: #000000;
       text-decoration: none;
       font-size: 40px;
+    }
+
+    h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Playfair Display SC', serif;
+      font-size: 200px;
+    }
+
+    h2 {
+      display: flex;
+      justify-content: center;
+      align-items: down;
+      font-family: 'Playfair Display SC', serif;
+      font-size: 200px;
+    }
+
+    ul li{
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      flex-direction: row;
     }
 
     .ecco2k_logo{
@@ -145,12 +164,16 @@
       align-items: center;
       margin: 0px;
       flex-direction: column;
-      background-color: #000;
+      background-color: #000000;
     }
     .ecco2k_logo img{
       width: 80%;
       height: auto;
       margin: 1%;
+    }
+
+    #e2klogo{
+      background-image: url('../img/ecco2klogo');
     }
     .ecco2k_bw{
       width: 100vw;
@@ -180,7 +203,7 @@
       background-position: top;
     }
 
-    
+
 
     footer{
       width: 100vw;
@@ -193,6 +216,11 @@
       background-color: #ffffff;
     }
 
+    .resize {
+      width: 40px;
+      height: 40px;
+    }
+
     /* This creates the main content section on each page */
 
     .main_content{
@@ -202,8 +230,8 @@
       flex-direction: column;
       margin: 0px;
       padding: 5%;
-      background-color: #000;
-      color: #fff;
+      background-color: #000000;
+      color: #ffffff;
     }
 
     /* this tells the browes to find the <p> in the .main_content and make it only 75% width */
@@ -211,7 +239,45 @@
       width: 75%;
 
     }
+    /* tour page */
+        .tourdates{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+          font-size: 20px;
+          width: 100vw;
+          margin: 0 auto;
+        }
+        .lefttour,
+        .righttour{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+          font-size: 20px;
+          width: 40%;
+          margin: 0 auto;
+        }
+        .lefttour ul,
+        .righttour ul{
+          list-style-type: none;
+        }
+        .lefttour ul li,
+        .righttour ul li{
+          color: #FFFFFF;
+          font-size: 12px;
+        }
 
+        /* contact page */
+        .contactform{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+          font-size: 20px;
+          margin: 0 auto;
+        }
 
   /* ==========================================================================
      Helper classes

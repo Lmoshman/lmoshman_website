@@ -5,8 +5,8 @@
   <title>Ecco2k</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" href="ecco.png">
+  <link rel="ecco" href="favicon.ico" type="image/gif" sizes="16x16">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -20,21 +20,30 @@
       <li><a href="contact.html">Contact</a href></li>
     </ul>
   </nav>
+  <h1>Contact</h1>
 </header>
 
 <!-- This is your basic main content section, the style is already written...you just need to add your content-->
 <section class="main_content">
-  <h1>Contact</h1>
-
+  <div class="contactform">
+    <form>
+      <label for="name">Your Name</label><br>
+      <input type="text" id="name"><br>
+      <label for="email">Email Adreess</label><br>
+      <input type="text" id="email"><br>
+      <label for="message">Message</label><br>
+      <input type="text" id="message"><br>
+      <input type="submit" id="submit"
+    </form>
+  </div>
 </section>
 
-<!-- Don't put in an <img> tag to change the background image...give the section an id and using CSS change your background image -->
 <section class="ecco2k_bw" id="contactbg">
-
 </section>
 
-<!-- What goes in your Footer?-->
+
 <footer>
+ <img class= "resize" src="img/ecco2klogo.jpg"/>
 </footer>
 
 
