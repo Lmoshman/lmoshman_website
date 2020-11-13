@@ -119,8 +119,12 @@
     }
 
     /* This sets up your unordered list in your navigation*/
-
-    }
+    nav ul{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: row;
+   }
 
     /* This sets up your list items to have the space between each of them*/
     nav ul li {
@@ -142,13 +146,6 @@
       font-size: 200px;
     }
 
-    h2 {
-      display: flex;
-      justify-content: center;
-      align-items: down;
-      font-family: 'Playfair Display SC', serif;
-      font-size: 200px;
-    }
 
     ul li{
       display: flex;
