@@ -128,7 +128,7 @@
 
     /* This sets up your list items to have the space between each of them*/
     nav ul li {
-      margin: 30px 90px;
+      margin: 10px 60px;
   }
 
     /* This sets up your links*/
@@ -216,6 +216,97 @@
     .resize {
       width: 40px;
       height: 40px;
+    }
+
+    @media screen and (max-width: 768px){
+
+      nav{
+        display: flex;
+        justify-content: center;
+        align-items: top;
+        flex-direction: row;
+        background-color: rgba(255, 255, 255, .6);
+        font-family: 'Playfair Display SC', serif;
+      }
+
+      /* This sets up your unordered list in your navigation*/
+      nav ul{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       flex-direction: row;
+     }
+
+      /* This sets up your list items to have the space between each of them*/
+      nav ul li {
+        margin: 30px 90px;
+    }
+
+    /* This sets up your links*/
+      nav ul li a{
+        color: #000000;
+        text-decoration: none;
+        font-size: 24px;
+    }
+
+    h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Playfair Display SC', serif;
+      font-size: 75px;
+    }
+    ul li{
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      flex-direction: row;
+    }
+
+    .ecco2k_logo{
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0px;
+      flex-direction: column;
+      background-color: #000000;
+    }
+
+    #e2klogo{
+      background-image: url('../img/ecco2klogo');
+    }
+    .ecco2k_bw{
+      width: 23vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0px;
+      flex-direction: column;
+      background-image: url('../img/home_bottom.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 476px;
+    }
+
+    /* This sets up your different background images for each page */
+    #tourbg{
+      background-image: url('../img/tour_bottom.jpg');
+    }
+
+    #aboutbg{
+      background-image: url('../img/about_bottom.jpg');
+    }
+
+    #contactbg{
+      background-image: url('../img/contact_bottom.jpg');
+      background-position: top;
+    }
+
+
+    @media screen and (max-width: 320px){
+    Write your iPhone Styles in between these curly brackets
     }
 
     /* This creates the main content section on each page */
