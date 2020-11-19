@@ -230,32 +230,36 @@
       }
 
       /* This sets up your unordered list in your navigation*/
-      nav ul{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       flex-direction: row;
-     }
+      nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        flex-direction: row;
+    }
 
       /* This sets up your list items to have the space between each of them*/
       nav ul li {
-        margin: 30px 90px;
+        margin: 10px 7px;
+        padding: 0px;
     }
 
     /* This sets up your links*/
-      nav ul li a{
-        color: #000000;
-        text-decoration: none;
-        font-size: 24px;
-    }
+    nav ul li a {
+      color: #000000;
+      text-decoration: none;
+      font-size: 16px;
+  }
+  
 
-    h1 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: 'Playfair Display SC', serif;
-      font-size: 75px;
-    }
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 45px;
+}
+
     ul li{
       display: flex;
       justify-content: center;
@@ -277,7 +281,7 @@
       background-image: url('../img/ecco2klogo');
     }
     .ecco2k_bw{
-      width: 23vw;
+      width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -372,21 +376,21 @@
     /* Contact Form */
 
     input{
-      width: 300px;
+      width: 270px;
       height: 55px;
       border: none;
       margin: 2%;
     }
 
     textarea{
-      width: 300px;
+      width: 270px;
       height: 155px;
       border: none;
       margin: 2%;
     }
 
     form button{
-      width: 315px;
+      width: 270px;
       height: 55px;
       border: 1px solid #fff;
       background-color: #000;
